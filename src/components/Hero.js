@@ -4,14 +4,14 @@ import Fade from "react-bootstrap/Fade";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import '../index.css';
-import CSSTransition from "react-transition-group/CSSTransition";
+import FadeIn from "./animations/FadeIn";
 
 
 function Hero(props){
     const[inProp] = useState(true);
 // Need to format to a jumbotron from react
     return(
-        <CSSTransition in={inProp} timeout={200} classNames="my-node">
+        <FadeIn>
             <Jumbotron classNames="bg-transparent">
             <Container>
                 <Row>
@@ -23,9 +23,8 @@ function Hero(props){
                 </Row>
             </Container>
             </Jumbotron>
-        </CSSTransition>
+        </FadeIn>
     );
-
 }
 
 export default Hero;

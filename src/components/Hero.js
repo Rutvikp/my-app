@@ -1,6 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
 import {Container, Jumbotron} from "react-bootstrap";
-import Fade from "react-bootstrap/Fade";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import '../index.css';
@@ -8,17 +7,18 @@ import FadeIn from "./animations/FadeIn";
 
 
 function Hero(props){
-    const[inProp] = useState(true);
 // Need to format to a jumbotron from react
     return(
         <FadeIn>
-            <Jumbotron classNames="bg-transparent">
+            <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container>
-                <Row>
-                    <Col>
-                        { props.title && <h1>{props.title}</h1>}
-                        { props.subTitle && <h5>{props.subTitle}</h5>}
-                        { props.text && <h6>{props.text}</h6>}
+                <Row className="justify-content-end py-5">
+                    <Col md={8} sm={12}>
+                        <FadeIn>
+                        { props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
+                        { props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3>}
+                        { props.text && <h3 className="lead font-weight-light">{props.text}</h3>}
+                        </FadeIn>
                     </Col>
                 </Row>
             </Container>

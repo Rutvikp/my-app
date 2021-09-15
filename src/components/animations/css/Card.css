@@ -1,0 +1,23 @@
+.border-radius-small{
+    border-radius: 10px;
+}
+
+img:hover{
+    opacity: 1;
+    transition: opacity 0.5s;
+    transform: scale(1.15);
+}
+video:hover{
+    opacity: 1;
+    transition: opacity 0.5s;
+    transform: scale(1.15);
+}
+img{
+    opacity: 60%;
+    transition: opacity 0.5s, transform 0.5s;
+}
+video{
+    opacity: 60%;
+    transition: opacity 0.5s, transform 0.5s;
+    border-radius: 10px;
+}

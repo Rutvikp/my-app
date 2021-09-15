@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Rutvikp.github.io/my-app",
+  "homepage": "http://Rutvikp.github.io",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +14,11 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-fade-in": "^1.0.0",
+    "react-hover-video-player": "^9.2.0",
+    "react-modal-video": "^1.2.8",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27"
   },
   "scripts": {
     "predeploy": "npm run build",

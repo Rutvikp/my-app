@@ -11,9 +11,7 @@ import Header from "../components/Header";
 import creative from '../assets/images/creative.jpg'
 import samurai_lapse from '../assets/videos/SamuraiLapse.mp4';
 import drone_video from '../assets/videos/MontTremblantFinalNoBars_Trim.mp4';
-import store_lapse from '../assets/videos/Storelapse.mp4';
-import picture_quebec from '../assets/images/picture_quebec.jpeg';
-import samurai_image from '../assets/images/SamuraiImage.jpg'
+import rue_image from '../assets/images/rue_crop_art.jpg'
 import { Container } from "react-bootstrap";
 
 
@@ -32,8 +30,8 @@ function ArtPage(props){
                     id:0,
                     title: 'Photography',
                     subTitle: 'Some of my clicks!📸',
-                    imgSrc: creative,
-                    link: '/Projects',
+                    imgSrc: rue_image,
+                    link: '/art/photography',
                     selected: false
                 },
                 {
@@ -50,8 +48,8 @@ function ArtPage(props){
                     id: 2,
                     title: "Digital Art",
                     subTitle: 'Some of my art work from procreate!🖊',
-                    imgSrc: store_lapse,
-                    link:'/Experience',
+                    imgSrc: samurai_lapse,
+                    link:'/art/digital-art',
                     selected: false
 
                 }

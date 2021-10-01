@@ -33,6 +33,11 @@ code {
   height: 225px;
   box-shadow: 0px 0px 3px 1px #ccc;
 }
+.r-modal-img{
+  width: 300px;
+  height: 225px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
 
 .r-card-info{
   margin-top: 10px;

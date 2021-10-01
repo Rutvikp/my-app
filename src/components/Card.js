@@ -9,7 +9,6 @@ function Card(props){
    
 
     if(props.item.imgSrc.includes('.mp4')){
-        console.log(props.item.selected);
         return(
             <div className="d-inline-block r-card" onClick={(e) => props.click(props.item)} >
                 <FadeIn>
@@ -28,14 +27,14 @@ function Card(props){
     
 
     }
-    else if(props.item.imgSrc.includes('preview')){
+    else if(props.item.imgSrc.includes('_art')){
         return(
         <div className="d-inline-block r-card" onClick={(e) => props.click(props.item)}>
             <FadeIn>
             
             <img className="border-radius-small hover r-card-video"  src={props.item.imgSrc} alt={props.item.imgSrc}/>
             {/*if selected will show the details underneath*/}
-            {props.item.selected && <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} />}
+            {props.item.selected && <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} imgSrc={props.item.imgSrc} imgModal={props.item.imgModal}/>}
             </FadeIn>
         </div>
         );

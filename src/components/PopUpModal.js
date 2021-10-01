@@ -1,22 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 
+import "./animations/css/Card.css";
 import FadeIn from '../components/animations/FadeIn';
 
 function PopUpModal(props) {
-  const [show, setShow] = useState(false);
-
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
-
-  useEffect(() => {
-    setShow(props.show);
-  }, [props.show])
   
+  function handleFullscreen(){
+    props.setFullscreen(true);
+    props.setModalVisible(false);
+  }
+  if(props.link.includes('youtube')){
     return (
       <>
       <FadeIn>
-        <Modal show={show} onHide={() => setShow(false)}>
+        <Modal show={props.show} onHide={() => props.setModalVisible(false)}>
           <Modal.Header closeButton>
             <Modal.Title>{props.title}</Modal.Title>
           </Modal.Header>
@@ -27,7 +25,7 @@ function PopUpModal(props) {
           allowFullScreen={true}></iframe>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="dark" onClick={() => setShow(false)}>
+            <Button variant="dark" onClick={() => props.setModalVisible(false)}>
               Close
             </Button>
           </Modal.Footer>
@@ -35,6 +33,31 @@ function PopUpModal(props) {
       </FadeIn>
       </>
     );
+  }
+
+  else if(props.link.includes('_art')){
+    
+    return (
+      <>
+      <FadeIn>
+        <Modal show={props.show} fullscreen={true}  onHide={() =>handleFullscreen()}>
+          <Modal.Header closeButton>
+            <Modal.Title>{props.title}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+         <img width="100%" height="100%" src={props.imgModal} className="img-in-modal hover-lg" />
+
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="dark" onClick={() => props.setModalVisible(false)}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </FadeIn>
+      </>
+    );
+  }
   }
   
   export default PopUpModal;

@@ -15,7 +15,7 @@ function Footer(){
                     <Col className="p-0" md={3} sm={12}>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This was made by Rutvik.
+                        Made by Rutvik using React.
                     </Col>
                 </Row>
             </Container>

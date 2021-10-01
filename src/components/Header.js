@@ -18,9 +18,8 @@ function Header(){
                <Nav className="ml-auto">
                  <Link className="nav-link" to="/home">Home</Link>
                  <Link className="nav-link" to="/about">About</Link>
-                 <Link className="nav-link" to="/projects">Projects</Link>
-                 <Link className="nav-link" to="/experience">Experience</Link>
                  <Link className="nav-link" to="/art">My Art</Link>
+                 <Link className="nav-link" to="/experience">Experience</Link>
                  <Link className="nav-link" to="/contact">Contact Me</Link>
                </Nav>
              </Navbar.Collapse>

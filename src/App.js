@@ -14,8 +14,9 @@ import DronePage from "./pages/DronePage";
 import ExperiencePage from "./pages/ExperiencePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-import ProjectsPage from "./pages/ProjectsPage";
 import { HashRouter, Redirect } from 'react-router-dom/esm/react-router-dom';
+import PhotographyPage from './pages/PhotographyPage';
+import DigitalArtPage from "./pages/DigitalArtPage";
 
 
 class App extends React.Component {
@@ -27,7 +28,6 @@ class App extends React.Component {
       headerLinks: [
         {title: 'Home', path: '/home'},
         {title: 'About', path: '/about'},
-        {title: 'Projects', path: '/projects'},
         {title: 'Experience', path: '/experience'},
         {title: 'Art', path: '/art'},
         {title: 'Contact', path: '/contact'}
@@ -42,9 +42,6 @@ class App extends React.Component {
       about: {
         title: "About Me"
       },
-      projects: {
-        title: "Projects"
-      },
       experience: {
         title: "Experience"
       },
@@ -55,7 +52,8 @@ class App extends React.Component {
         title: "My Art"
       },
       photography: {
-        title: "Photography"
+        title: "Photography",
+        subTitle: "Some of my clicks!"
       },
       drone:{
         title: "Drone Videos",
@@ -63,7 +61,8 @@ class App extends React.Component {
         text: "Edited by me in Premiere Pro"
       },
       digitalArt:{
-        title: "Digital Art"
+        title: "Digital Art",
+        subTitle: "Using Procreate"
       },
 
     }
@@ -92,11 +91,11 @@ class App extends React.Component {
           <Route  path="/home" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>}></Route>
           <Route  path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} text={this.state.about.text}/>}></Route>
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text}/>}></Route>
-          <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} subTitle={this.state.projects.subTitle} text={this.state.projects.text}/>}></Route>
           <Route path="/experience" exact render={() => <ExperiencePage title={this.state.experience.title} subTitle={this.state.experience.subTitle} text={this.state.experience.text}/>}></Route>
           <Route path="/art" exact render={() => <ArtPage title={this.state.art.title} subtitle={this.state.art.subTitle} text={this.state.art.text}/>}></Route>
           <Route  path="/art/drone" exact render={() => <DronePage title={this.state.drone.title} subTitle={this.state.drone.subTitle} text={this.state.drone.text}/>}></Route>
-
+          <Route  path="/art/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} text={this.state.photography.text}/>}></Route>
+          <Route  path="/art/digital-art" exact render={() => <DigitalArtPage title={this.state.digitalArt.title} subTitle={this.state.digitalArt.subTitle} text={this.state.digitalArt.text}/>}></Route>
       </Router>
       );
   }

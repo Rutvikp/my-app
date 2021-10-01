@@ -8,7 +8,7 @@ import { Container } from "react-bootstrap";
 
 import kariya_video from '../assets/videos/KariyaPark_Trim.mp4';
 import tremblant_video from '../assets/videos/MontTremblantFinalNoBars_Trim.mp4';
-import bali_picture from '../assets/images/bali_preview.jpg';
+import bali_picture from '../assets/images/bali_art.jpg';
 
 
 function DronePage(props){

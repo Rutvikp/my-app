@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Container } from "react-bootstrap";
 
-import creative from '../assets/images/creative.jpg'
 import hard_work from '../assets/images/hard_work.jpg';
 import street from '../assets/images/Clevelandstreet.jpg'
 import myself from '../assets/images/mewithmask.jpg';
@@ -22,15 +21,7 @@ function HomePage(props){
             <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
             <Carousel items={[
                 {
-                    id:0,
-                    title: 'Projects',
-                    subTitle: 'Check out my Projects!',
-                    imgSrc: creative,
-                    link: '/projects',
-                    selected: false
-                },
-                {
-                    id: 1,
+                    id: 0,
                     title: "Work Experience",
                     subTitle: 'Professional life',
                     imgSrc: hard_work,
@@ -39,7 +30,7 @@ function HomePage(props){
 
                 },
                 {
-                    id: 2,
+                    id: 1,
                     title: "My Art",
                     subTitle: "Check out my art!",
                     link: '/art',
@@ -49,7 +40,7 @@ function HomePage(props){
 
                 },
                 {
-                    id: 3,
+                    id: 2,
                     title: "About Me",
                     subTitle: "Get to know me!",
                     link: '/about',

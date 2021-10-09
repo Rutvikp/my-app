@@ -3,7 +3,8 @@ import Hero from "../components/Hero";
 import Content from "../components/Content";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { Container } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
+import ContactForm from "../components/ContactForm";
 
 function ContactPage(props){
 
@@ -15,8 +16,7 @@ function ContactPage(props){
                 <Header/>
                 <Hero title={props.title}/>
                 <Content>
-                    Hello
-
+                    <ContactForm></ContactForm>
                 </Content>
                 <Footer/>
             </Container>

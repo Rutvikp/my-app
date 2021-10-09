@@ -36,8 +36,8 @@ function ExperiencePage(props){
                     connects externally using a DB9 connecter, has micro-fit headers to allow further application and interaction with the MCU (STM32F405) 
                     and a coin-cell battery holder that maintains the internal RTC when the module is powered off. This reduced the cost of the testing equipment
                     from $200USD(previously used Wilke CAN-Bus I/O Modules) to $25USD a piece. I also modified the presently used testing equipment to send messages
-                    at various baud rates, allowing for the testing capabilities of many different batteries. I also had the opportunity to work with LabVIEW and design 
-                    a tool that can receieve and transmit CAN data to batteries allowing emplouees to monitor and test the batteries in a much faster and precise manner.
+                    at various baud rates, allowing for the testing capabilities on many different batteries. I also had the opportunity to work with LabVIEW and design 
+                    a tool that can receive and transmit CAN data to batteries allowing employees to monitor and test the batteries in a much faster and precise manner.
                     The tool allowed for logging, error code identification, obtaining the V/I/T state of the battery as well as a search functionality for thousands of incoming messages.</h5>
                 <br></br>
                 <h2 className="display-5 font-weight-bolder"> Bendix Commercial Vehicle System LLC. </h2>
@@ -55,7 +55,9 @@ function ExperiencePage(props){
                 <br></br>
                 <h2 className="display-5 font-weight-bolder"> Yulio Technologies Inc.</h2>
                 <h4 > QA/Developer | Intern | April 2019 - August 2019 & September 2018 - December 8 </h4>
-                <h5 className="font-weight-lighter"> Hello </h5>
+                <h5 className="font-weight-lighter"> As my first internship, I was able to gain a lot of experience working at a company here. At Yulio I got experience using Django to creat charts that gathered
+                data on the website's activity based on thousand of active users, I added multiple features and fixed multiple bugs/issues found in the company's website. On the project side of things,
+                I prepared and ran multiple meetings as a bridge between marketing and developers to introduce new fatures and realeases from both sides </h5>
                 <br></br>
                 </FadeIn>
             </Content>

@@ -7,11 +7,13 @@ img:hover{
     transition: opacity 0.5s;
     transform: 
     scale(1.15);
+    cursor: pointer;
 }
 video:hover{
     opacity: 1;
     transition: opacity 0.5s;
     transform: scale(1.15);
+    cursor: pointer;
 }
 
 

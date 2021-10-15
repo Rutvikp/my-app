@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e77725fc78fd8468814ebf92980dbb8",
+    "revision": "be62b4668f191a79078a3a88b2355a37",
     "url": "/my-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-app/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "8c45789c4f5151d39e59",
+    "revision": "9332057aaa1a81fefb27",
     "url": "/my-app/static/css/main.cf02ac02.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-app/static/js/2.9f23f2fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c45789c4f5151d39e59",
-    "url": "/my-app/static/js/main.3b053ff3.chunk.js"
+    "revision": "9332057aaa1a81fefb27",
+    "url": "/my-app/static/js/main.3640d9e8.chunk.js"
   },
   {
     "revision": "d21a59192a6355194f80",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-app/static/media/Paper-note.0f51cdf4.svg"
   },
   {
-    "revision": "8861967d78eac012eed17af3efc81da1",
-    "url": "/my-app/static/media/RutvikPandya.8861967d.pdf"
+    "revision": "77b10d0f66abc8b121fe711a3a12f042",
+    "url": "/my-app/static/media/RutvikPandya.77b10d0f.pdf"
   },
   {
     "revision": "699e74923e8923ce1c23b169f8aea0d8",

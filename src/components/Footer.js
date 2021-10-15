@@ -12,9 +12,7 @@ function Footer(){
         <footer className="mt-5 position">
             <Container fluid={true}>
                 <Row className="border-top border-grey justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                    </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
+                    <Col className="p-0 d-flex justify-content-end">
                         Made by Rutvik using React.
                     </Col>
                 </Row>

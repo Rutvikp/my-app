@@ -34,8 +34,8 @@ class App extends React.Component {
       ],
       //home object
       home: {
-        title: "All About Me ",
-        subTitle: "Explore",
+        title: "Rutvik Pandya ",
+        subTitle: "All About Me",
         //a little message to check the links
         text: "Explore my page and learn more about me!"
       },

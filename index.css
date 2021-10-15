@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+hr {
+  border: none;
+  height: 10px;
+  background-color: darkgray;
+}
+.my-node-enter{
+  opacity: 0;
+}
+.my-node-enter-active{
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+.r-card{
+  margin: 20px;
+}
+
+.r-card-image{
+  width: 300px;
+  height: 450px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+.r-card-video{
+  width: 300px;
+  height: 225px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+.r-modal-img{
+  width: 300px;
+  height: 225px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.r-card-info{
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.r-card-title{
+  font-size: 24px;
+  margin: 0px;
+}
+.r-card-sub-title{
+  font-size: 15px;
+  color:black;
+  margin: 0px;
+}
+
+.r-svg{
+  width: 25px;
+  height: 25px;
+  margin-left:0px;
+  margin-right:10px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:5px;
+}
+.r-svg-large{
+  width: 50px;
+  height: 50px;
+}
+
+.black{
+  background-color:whitesmoke;
+}
+
+/*h1{*/
+/*  color: white;*/
+/*}*/
+/*h2{*/
+/*  color: white;*/
+/*}*/
+/*h3{*/
+/*  color: white;*/
+/*}*/
+/*h4{*/
+/*  color: white;*/
+/*}*/
+/*h5{*/
+/*  color: white;*/
+/*}*/
+

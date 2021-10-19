@@ -1,6 +1,0 @@
-.video-overlay{
-    position: absolute;
-    min-width: 50%; 
-    opacity: 60%;
-    transform: translate(50%, 0);
-}

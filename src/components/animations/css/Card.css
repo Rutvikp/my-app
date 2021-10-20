@@ -18,7 +18,7 @@ video:hover{
 
 
 .img-in-modal{
-    opacity: 100%;
+    opacity: 1;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,11 +28,11 @@ video:hover{
 }
 
 img{
-    opacity: 50%;
+    opacity: 0.5;
     transition: opacity 0.5s, transform 0.5s;
 }
 video{
-    opacity: 50%;
+    opacity: 0.5;
     transition: opacity 0.5s, transform 0.5s;
     border-radius: 10px;
 }

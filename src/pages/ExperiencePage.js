@@ -26,7 +26,7 @@ function ExperiencePage(props){
                 <a href={resume} target="_blank">
                     <img className="r-svg-large" src={paper}></img>
                 </a>
-                <hr size="50"></hr>
+                <hr size="20"></hr>
                 <h2 className="display-5 font-weight-bolder"> ANSYS Inc. </h2>
                 <h4>Software Developer | Intern | April 2021 - August 2021 </h4>
                 <h5 className="font-weight-lighter"> Ansys was the company that brought forth my realization and interest towards Software Development. 
@@ -36,7 +36,7 @@ function ExperiencePage(props){
                     aspect of the business as I worked hand-in-hand with developers to add their applications to the Ansys catalog. I was able to
                     bring the efficiency of applications added to store from 3-4 apps/month to around 14-15 apps/month while improving customer satisfaction. 
                 </h5>
-                <hr size="50"></hr>
+                <hr size="20"></hr>
                 <br></br>
                 <h2 className="display-5 font-weight-bolder"> Electrovaya Inc. </h2>
                 <h4> Firmware Engineer | Intern | September 2020 - December 2020 </h4>
@@ -51,7 +51,7 @@ function ExperiencePage(props){
                     a tool that can receive and transmit CAN data to batteries allowing employees to monitor and test the batteries in a much faster and precise manner.
                     The tool allowed for logging, error code identification, obtaining the V/I/T state of the battery as well as a search functionality for thousands of incoming messages.
                 </h5>
-                <hr size="50"></hr>
+                <hr size="20"></hr>
                 <br></br>
                 <h2 className="display-5 font-weight-bolder"> Bendix Commercial Vehicle System LLC. </h2>
                 <h4> Mechatronics Product Developer | Intern | January 2020 - April 2020 </h4>
@@ -59,7 +59,7 @@ function ExperiencePage(props){
                     of trucks in North America. I also had the chance to design and make a PCB in PADS Layout that used an Arduino Pro Mini, NeoPixel Lights to promote STEM outreach for an event
                     designed for students. I cut an assembled 40 of these pieces improving my circuit design, soldering, coding and planning skills.  
                 </h5>
-                <hr size="50"></hr>
+                <hr size="20"></hr>
                 <br></br>
                 <h2 className="display-5 font-weight-bolder"> Loopio Inc. </h2>
                 <h4> Automation Engineer | Intern | April 2019 - August 2019 </h4>
@@ -68,7 +68,7 @@ function ExperiencePage(props){
                     of the automation test suite was successful. I also had the chance to implement FullStory (third-party analytics software) to allow for analysts to monitor the website without accessing private
                     customer data. One of the most interesting portions of the term was when I got to work on re-factoring React code. Additionally, I worked on resolving 50+ bugs and necessary design tweaks on the website. 
                 </h5>
-                <hr size="50"></hr>
+                <hr size="20"></hr>
                 <br></br>
                 <h2 className="display-5 font-weight-bolder"> Yulio Technologies Inc.</h2>
                 <h4 > QA/Developer | Intern | April 2019 - August 2019 & September 2018 - December 8 </h4>
@@ -76,7 +76,7 @@ function ExperiencePage(props){
                 data on the website's activity based on thousand of active users, I added multiple features and fixed multiple bugs/issues found in the company's website. On the project side of things,
                 I prepared and ran multiple meetings as a bridge between marketing and developers to introduce new fatures and realeases from both sides 
                 </h5>
-                <hr size="50"></hr>
+                <hr size="20"></hr>
                 <br></br>
                 </FadeIn>
             </Content>

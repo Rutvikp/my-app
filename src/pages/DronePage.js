@@ -44,7 +44,7 @@ function DronePage(props){
                         title: "Bali, Indonesia",
                         subTitle: 'Coming Fall 2022',
                         imgSrc: bali_picture,
-                        link:'/art/drone',
+                        link:'#/art/drone',
                         selected: false
 
                     }

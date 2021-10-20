@@ -31,14 +31,14 @@ function ArtPage(props){
                     title: 'Photography',
                     subTitle: 'Some of my clicks!📸',
                     imgSrc: rue_image,
-                    link: '/art/photography',
+                    link: '#/art/photography',
                     selected: false
                 },
                 {
                     id: 1,
                     title: "Drone Videos",
                     subTitle: "Check out my drone videos!🚁",
-                    link: '/art/drone',
+                    link: '#/art/drone',
                     imgSrc: drone_video,
                     selected: false
 
@@ -49,7 +49,7 @@ function ArtPage(props){
                     title: "Digital Art",
                     subTitle: 'Some of my art work from procreate!🖊',
                     imgSrc: samurai_lapse,
-                    link:'/art/digital-art',
+                    link:'#/art/digital-art',
                     selected: false
 
                 }

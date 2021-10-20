@@ -25,7 +25,7 @@ function HomePage(props){
                     title: "Work Experience",
                     subTitle: 'Professional life',
                     imgSrc: hard_work,
-                    link:'/experience',
+                    link:'#/experience',
                     selected: false
 
                 },
@@ -33,7 +33,7 @@ function HomePage(props){
                     id: 1,
                     title: "My Art",
                     subTitle: "Check out my art!",
-                    link: '/art',
+                    link: '#/art',
                     imgSrc: street,
                     selected: false
 
@@ -43,7 +43,7 @@ function HomePage(props){
                     id: 2,
                     title: "About Me",
                     subTitle: "Get to know me!",
-                    link: '/about',
+                    link: '#/about',
                     imgSrc: myself,
                     selected: false
 

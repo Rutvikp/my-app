@@ -1,5 +1,5 @@
 {
-  "homepage": "http://rutvikp.github.io/my-app",
+  "homepage": ".",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -28,7 +28,7 @@
     "dev-node": "nodemon server.js",
     "start-node": "node server.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48d414701cedfaedc9fdc1ef1f8d38b7",
+    "revision": "2aef7ad7de93cb12e40bb74dc1bb24c3",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.b5f3909f.chunk.css"
   },
   {
-    "revision": "63aa7ff49a3b05fe480c",
+    "revision": "c00da35a0e3e9dbb77e5",
     "url": "/static/css/main.d45064a5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3ee4685d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63aa7ff49a3b05fe480c",
-    "url": "/static/js/main.c4ae0f68.chunk.js"
+    "revision": "c00da35a0e3e9dbb77e5",
+    "url": "/static/js/main.9f5784d6.chunk.js"
   },
   {
     "revision": "2060b9a7e54a59ab7b07",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Paper-note.0f51cdf4.svg"
   },
   {
-    "revision": "77b10d0f66abc8b121fe711a3a12f042",
-    "url": "/static/media/RutvikPandya.77b10d0f.pdf"
+    "revision": "db84ea286f82304c69b218451820c451",
+    "url": "/static/media/RutvikPandya.db84ea28.pdf"
   },
   {
     "revision": "699e74923e8923ce1c23b169f8aea0d8",

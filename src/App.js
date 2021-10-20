@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Link } from 'react-router-dom';
+import {BrowserRouter as Router, Link, HashRouter } from 'react-router-dom';
 import './App.css';
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -79,11 +79,12 @@ class App extends React.Component {
     return (
       //hash router helps redirect to desired home page
       
-      <Router>
+      <HashRouter basename='/'>
+
 
           {/* whats going on here: using react router to render a specific component based on the path
           The state allows me to pass that data in as props into our pages so that the pages can be function components*/}
-
+          
           <Route exact path="/">
               <Redirect to="/home" /> 
           </Route>
@@ -96,7 +97,7 @@ class App extends React.Component {
           <Route  path="/art/drone" exact render={() => <DronePage title={this.state.drone.title} subTitle={this.state.drone.subTitle} text={this.state.drone.text}/>}></Route>
           <Route  path="/art/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} text={this.state.photography.text}/>}></Route>
           <Route  path="/art/digital-art" exact render={() => <DigitalArtPage title={this.state.digitalArt.title} subTitle={this.state.digitalArt.subTitle} text={this.state.digitalArt.text}/>}></Route>
-      </Router>
+      </HashRouter>
       );
   }
 }

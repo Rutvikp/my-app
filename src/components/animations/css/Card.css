@@ -28,11 +28,11 @@ video:hover{
 }
 
 img{
-    opacity: 60%;
+    opacity: 50%;
     transition: opacity 0.5s, transform 0.5s;
 }
 video{
-    opacity: 60%;
+    opacity: 50%;
     transition: opacity 0.5s, transform 0.5s;
     border-radius: 10px;
 }
